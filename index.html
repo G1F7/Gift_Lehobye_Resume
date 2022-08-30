@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Portfolio | Gift Lehobye</title>
+        <script src="https://kit.fontawesome.com/bba8345d93.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="./images/logo.jpg" height="120px" width="120px">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#aboutMe">About</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#contactMe">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text"> 
+                    <h1>Hi, I'm<br><span>Gift Austin Lehobye</span></h1>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------About Section Below--------------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./images/pic.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title" id="aboutMe">About Me</h2>
+                        <p>I am an IT enthusiast who is self-motivated and has a passion for growth in IT. I have proven 
+                            development and advanced desktop troubleshooting skills, I’m a hard-working individual who 
+                            can work well in a team and alone. I’d like to work for a company that can help me reach my 
+                            full potential while bringing value to it as an asset.
+                        </p>
+                        <div class="table-tiles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <!--------------------Below is the 'Skills' tab--------------------->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing / Web Developer</li>
+                                <li><span>Front End</span><br>Web Developer</li>
+                                <li><span>Wordpress</span><br>Web Developer</li>
+                            </ul>
+                        </div>
+                        <!--------------------Below is the 'Experience' tab--------------------->
+                        <div class="tab-contents" id="exprience">
+                            <ul>
+                                <li><span>Payjoy / Craving Novity</span><br>Contractor</li>
+                                <li><span>Mustek Limited</span><br>Internship / Desktop Technician</li>
+                            </ul>
+                        </div>
+                        <!--------------------Below is the 'Education' tab--------------------->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>HyperionDev</span><br>Full Stack Web Development</li>
+                                <li><span>iCollege Institute</span><br>Desktop Technician</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------Projects------------------------------------>
+        <div id="Projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="projects-list">
+                    <div>
+                        <div class="layer">
+                            <i class="fa-brands fa-dev"></i>
+                            <h2>UI/UX Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                               Dolorum accusamus, obcaecati excepturi nisi nam quam veritatis reprehenderit praesentium eveniet! 
+                               Odit fuga illo quam nisi sunt quas dicta a iure placeat?
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="layer">
+                                <i class="fa-solid fa-code"></i>
+                            <h2>Online Store</h2>
+                            <p>Description Is an online-store project that is designed to help contribute to a 
+                                bargaining service where customers could self-service by ordering items from the website and by making sure 
+                                that each and every customer is satisfied with the item
+                            </p>
+                            <a href="https://github.com/G1F7/eCommerce-website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div> 
+                    </div>
+                    <div>
+                        <div class="layer">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <h2>Wordpress Web Design</h2>
+                            <p> Created a Wordpress site for CTU, Designed an Open Day page for CTU which is for full time students where they can also apply for a course.
+                            </p>
+                            <a href="http://giftctu.byethost7.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn" id="contactMe">Contact Me</a>
+        <!-------------------------Contact Form------------------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <!------------------Content on the left side------------>
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>austingift24@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+2761 414 7189</p>
+                        <!---------------Social Icons Below---------------->
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/gift-lehobye/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/_giftaustin_/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/G1F7"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="/images/CV of Gift Lehobye.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <!---------------Content on the right side--------------->
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <p>Copyrights © Gift.</p>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
